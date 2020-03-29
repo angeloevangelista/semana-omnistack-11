@@ -64,7 +64,7 @@ export default function Incidents() {
         data={incidents}
         style={styles.incidentList}
         keyExtractor={incident => String(incident.id)}
-        // showsVerticalScrollIndicator={false}
+        showsVerticalScrollIndicator={false}
         fadingEdgeLength={true}
         onEndReached={loadIncidents}
         onEndReachedThreshold={0.3}
